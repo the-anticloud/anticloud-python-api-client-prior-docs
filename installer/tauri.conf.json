@@ -1,0 +1,40 @@
+{
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "index.html",
+    "distDir": "."
+  },
+  "package": {
+    "productName": "PYTHON_API_CLIENT_PRIOR_DOCS",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "open": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "gg.anticloud.python_api_client_prior_docs",
+      "category": "DeveloperTool",
+      "shortDescription": "PYTHON_API_CLIENT_PRIOR_DOCS \u2014 Anticloud Sovereign AI Infrastructure",
+      "longDescription": "Installer for PYTHON_API_CLIENT_PRIOR_DOCS, part of the Anticloud sovereign AI infrastructure stack"
+    },
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "title": "PYTHON_API_CLIENT_PRIOR_DOCS Installer",
+        "width": 900,
+        "height": 700,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ]
+  }
+}

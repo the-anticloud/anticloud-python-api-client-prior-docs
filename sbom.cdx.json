@@ -1,0 +1,46 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:1ed529ed-bc59-593a-a683-30958eb36ef8",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T13:19:41Z",
+    "component": {
+      "type": "application",
+      "name": "PYTHON_API_CLIENT_PRIOR_DOCS",
+      "version": "70a068d52cd3",
+      "bom-ref": "pkg:generic/anticloud/PYTHON_API_CLIENT_PRIOR_DOCS@70a068d52cd3",
+      "purl": "pkg:generic/anticloud/PYTHON_API_CLIENT_PRIOR_DOCS@70a068d52cd3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "70a068d52cd329bdbb478ffa5020bdfd2f0a3a83"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/recombee/python-api-client"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "requests",
+      "version": ">=2.20.0",
+      "purl": "pkg:pypi/requests@2.20.0",
+      "bom-ref": "pypi/requests@>=2.20.0"
+    }
+  ]
+}
